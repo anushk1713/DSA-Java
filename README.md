@@ -23,6 +23,10 @@ Arrays/
 LargestElement.java
 DuplicateElement.java
 
+Patterns/
+Pyramid.java
+fulldiamond.java/ etc.
+
 Strings/
 Palindrome.java
 
