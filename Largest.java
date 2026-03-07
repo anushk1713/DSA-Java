@@ -5,12 +5,13 @@ public class Largest{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
+        //loop for accepting the array values
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
         }
         
         int max = arr[0];
-        
+        //loop to check for largest number in an array
         for(int i=1;i<n;i++){
             if(arr[i]>max){
                 max = arr[i];
@@ -18,4 +19,5 @@ public class Largest{
         }
         System.out.println(max);
     }
+
 }
