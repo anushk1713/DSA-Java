@@ -5,7 +5,9 @@ public class binarypattern{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
+        //outerloop rows
         for(int i=1;i<=n;i++){
+            //for columns
             for(int j=1;j<=i;j++){
                 if((i+j)%2==0){
                     System.out.print(1); //System.out.print(0);
