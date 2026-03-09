@@ -1,16 +1,19 @@
+
 import java.util.Scanner;
+
 public class reverse{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
-        //outerloop for rows
-        for(int i=1;i<=4;i++){
-            //innerloop for columns & prints pattern in reverse order like 1 21 321 4321
-            for(int j=i;j>=1;j--){
-                System.out.print(j);
-            }
-            System.out.println();
+        int[] arr = new int[n];
+        int original = n;
+        int reverse = 0;
+        
+        while(n != 0){
+            int lastdigit = n%10;
+            reverse = reverse*10+lastdigit;
+            n = n/10;
         }
+        System.out.print(reverse);
     }
 }
