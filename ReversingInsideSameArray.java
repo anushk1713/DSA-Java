@@ -25,6 +25,10 @@ public class ReversingInsideSameArray{
         //printing the reversed array
         for(int num = 0; num<arr.length; num++){
             System.out.print(arr[num] + " ");
+
+            // we can also use for each loop for printing reverse array
+            //for(int num : arr){
+            //System.out.print(num + " ");
         }
     }
 }
