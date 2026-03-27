@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class MissingAlphabet {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //accept the string
         String str = sc.nextLine();
-
-        int[] freq = new int[256]; // to store frequency of characters
+        //frequency array to store frequency of characters
+        int[] freq = new int[256];
 
         // Step 1: Count frequency
         for (int i = 0; i < str.length(); i++) {
